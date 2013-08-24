@@ -18,7 +18,7 @@ module.exports = function(grunt) {
 
             },
             css: {
-                files: ['static/sass/**', ''static/css/**''],
+                files: ['static/sass/**', 'static/css/**'],
                 tasks: ['compass'],
                 options: {
                     livereload: true,
@@ -54,7 +54,7 @@ module.exports = function(grunt) {
                     debug: true,
                     delayTime: 1,
                     env: {
-                        PORT: 3000
+                        PORT: 3300
                     },
                     cwd: __dirname
                 }
