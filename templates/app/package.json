@@ -18,6 +18,9 @@
     	"grunt-contrib-jshint": "~0.6.3",
     	"grunt-contrib-nodeunit": "~0.2.0",
     	"grunt-contrib-uglify": "~0.2.2",
+    	"grunt-contrib-watch": "*",
+    	"grunt-concurrent": "*",
+    	"grunt-contrib-compass": "*",
     	"grunt-nodemon": "*"
   },
   "engine": "node >= 0.6.6"
