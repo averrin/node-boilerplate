@@ -39,3 +39,8 @@ html.no-js(lang='en')
           script(defer, src='//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js')
           script(defer)
             window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})})
+          script
+            document.write('<script src="http://'
+            + (location.host || 'localhost').split(':')[0]
+            + ':3301/livereload.js"></'
+            + 'script>')
