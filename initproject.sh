@@ -11,6 +11,7 @@ mkdir ./test
 echo "Copying code, markup and CSS boilerplate..."
 cp ./templates/app/server.js ./server.js
 cp ./templates/app/package.json ./package.json
+cp ./templates/app/gruntfile.js ./gruntfile.js
 cp ./templates/app/.gitignore ./.gitignore
 cp ./templates/app/config.json ./config.json
 cp ./templates/app/Makefile ./Makefile
@@ -28,7 +29,7 @@ npm install
 
 echo "Removing stuff you don't want..."
 rm -rf .git
-rm -rf templates
+#rm -rf templates
 rm README.md
 #rm initproject.sh
 
