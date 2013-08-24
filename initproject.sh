@@ -30,7 +30,7 @@ echo "Removing stuff you don't want..."
 rm -rf .git
 rm -rf templates
 rm README.md
-rm initproject.sh
+#rm initproject.sh
 
 echo "Initializing new git project..."
 git init
