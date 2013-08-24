@@ -7,13 +7,13 @@ module.exports = function(grunt) {
             html: {
                 files: ['static/views/**'],
                 options: {
-                    livereload: true,
+                    livereload: 3301,
                 },
             },
             js: {
-                files: ['static/js/**'],
+                files: ['static/js/**', 'server.js', 'app/**'],
                 options: {
-                    livereload: true,
+                    livereload: 3301,
                 },
 
             },
@@ -21,7 +21,7 @@ module.exports = function(grunt) {
                 files: ['static/sass/**', 'static/css/**'],
                 tasks: ['compass'],
                 options: {
-                    livereload: true,
+                    livereload: 3301,
                 },
             },
         },
